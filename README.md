@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Saksham Srivastava</h1>
 <h3 align="center">I am interested and passionate about Machine learning and deep learning algorithms along with interest in NLP.</h3>
 
-- 🌱 I’m currently learning **PyTorch and Database management.**
+- 🌱 I’m currently learning **PyTorch and Django.**
 
 - 📝 I regularly write articles on [https://medium.com/@saksh-am](https://medium.com/@saksh-am)
 
