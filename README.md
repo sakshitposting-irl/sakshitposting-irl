@@ -1,8 +1,8 @@
 # Hi, I'm Saksham
 
-Engineer. I don't have one specialty so much as a habit of following whatever's currently annoying me until I understand it — which has meant ML models one year, Linux internals the next, and a trace pipeline after that.
+No fixed specialty, I just work on whatever's annoying me at the time. That's been ML, then Linux internals, now tracing.
 
-The stuff below isn't a portfolio with a theme. It's just what I got interested in.
+Not really a themed portfolio below, just stuff I got into.
 
 📫 sakshamsrivastava0000@gmail.com · ✍️ [medium.com/@saksh-am](https://medium.com/@saksh-am) · 💼 [LinkedIn](https://linkedin.com/in/s-aksh)
 
@@ -11,27 +11,27 @@ The stuff below isn't a portfolio with a theme. It's just what I got interested 
 **[Investigating Cultural Bias: A Comparative Study of Large Language Models](https://doi.org/10.1007/978-3-032-18477-1_45)**
 with Pooja Singh, Sonia Khetarpaul and Unnat Sharma — *PReMI 2025*, Springer LNCS
 
-We wanted to know how much a model's output shifts when you change only who it thinks it's talking about. Two tests: **The Life of X**, which swaps identity markers like names and watches the story change, and **RECAP**, which asks for culturally-specific recommendations and grades the answers by hand and by machine. GPT-4, Gemini and Claude all drift the same way — they default to Western norms unless you tell them not to.
+We tested how much an LLM's answer changes if you only change who it thinks it's talking to. Built two things for it: The Life of X (swap names/identity markers, see how the story changes) and RECAP (ask for culturally-specific recommendations, grade them by hand and automatically). Ran it on GPT-4, Gemini and Claude. All three default to Western norms unless you tell them not to.
 
 ## Some things I've built
 
-**[otel-pattern-sampler](https://github.com/sakshitposting-irl/otel-pattern-sampler)** — an OpenTelemetry Java agent extension that drops a noisy root span by name before it's recorded or exported. One span pattern was flooding a trace backend and the only options were to turn down sampling everywhere or go edit the app, so I made a third one. Java, no changes to the instrumented service.
+**[otel-pattern-sampler](https://github.com/sakshitposting-irl/otel-pattern-sampler)** — OTel Java agent extension, drops a noisy root span by name before it hits the exporter. Had one span pattern flooding a trace backend at work and neither "turn down sampling globally" nor "go edit the app" was a good fix, so this.
 
-**[summarize-for-noobs](https://github.com/sakshitposting-irl/summarize-for-noobs)** — a text summarizer on Streamlit that pulls out the parts worth reading.
+**[summarize-for-noobs](https://github.com/sakshitposting-irl/summarize-for-noobs)** — Streamlit app, summarizes text.
 
-**[Othello-AI](https://github.com/sakshitposting-irl/Othello-AI)** — agents playing Reversi at each other.
+**[Othello-AI](https://github.com/sakshitposting-irl/Othello-AI)** — Reversi agents.
 
-**[torch-mnist](https://github.com/sakshitposting-irl/torch-mnist)** and **[fmnist-torch-cnn](https://github.com/sakshitposting-irl/fmnist-torch-cnn)** — PyTorch from back when I was learning it. Left up on purpose.
+**[torch-mnist](https://github.com/sakshitposting-irl/torch-mnist)** / **[fmnist-torch-cnn](https://github.com/sakshitposting-irl/fmnist-torch-cnn)** — old PyTorch stuff from when I was learning it. Not deleting these.
 
-Plus a [Java text editor](https://github.com/sakshitposting-irl/Java-text-editor) and a long tail of other repos, most of which exist because I wanted to see if I could.
+Also a [Java text editor](https://github.com/sakshitposting-irl/Java-text-editor) and a bunch of other repos I'm not going to list individually.
 
 ## Writing
 
-I have a thing on Medium where I take something I use every day and follow it all the way down:
+Medium, mostly "how does this actually work":
 
-- *Process Isolation: Linux Namespaces & cgroups*
-- *What Happens When: Linux boots from power to systemd*
-- *What Happens When: You Hit A URL*
-- *Context Switch: The Illusion of Continuity*
+- Process Isolation: Linux Namespaces & cgroups
+- What Happens When: Linux boots from power to systemd
+- What Happens When: You Hit A URL
+- Context Switch: The Illusion of Continuity
 
-Before those it was mostly ML — transformers, GANs, word embeddings, a bit of RL.
+Older stuff is ML — transformers, GANs, word embeddings, some RL.
