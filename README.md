@@ -1,7 +1,7 @@
 # Hi, I'm Saksham
 
 No fixed specialty, I just work on whatever's annoying me at the time. That's been ML, then Linux internals, now tracing and Kubernetes networking. 
-Day job is running seven Kubernetes clusters — two bare-metal, five EKS,which is where most of the annoyances come from.
+Day job is running lots of Kubernetes clusters, lots of Docker, some networking, some cybersec and whatever I am allowed to poke at.
 
 Not really a themed portfolio below, just stuff I got into.
 
