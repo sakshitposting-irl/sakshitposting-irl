@@ -7,6 +7,8 @@ Not really a themed portfolio below, just stuff I got into.
 
 📫 sakshamsrivastava0000@gmail.com · ✍️ [medium.com/@saksh-am](https://medium.com/@saksh-am) · 💼 [LinkedIn](https://linkedin.com/in/s-aksh)
 
+find more of me: [https://saksh.fyi](https://saksh.fyi)
+
 ## Things I fixed upstream
 
 **[fluent-bit](https://github.com/fluent/fluent-bit/commit/d17e94305df9847599f474dc4c31318a026581b7)** — the official install script silently broke on every Debian/Ubuntu box after packages.fluentbit.io started 302-ing to S3; `curl` fetched an empty GPG key and `gpg` gave up. One flag. Merged.
