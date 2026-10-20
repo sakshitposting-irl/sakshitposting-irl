@@ -5,9 +5,9 @@ Day job is running lots of Kubernetes clusters, lots of Docker, some networking,
 
 Not really a themed portfolio below, just stuff I got into.
 
-📫 sakshamsrivastava0000@gmail.com || saksh.am@outlook.in · ✍️ [medium.com/@saksh-am](https://medium.com/@saksh-am) · 💼 [LinkedIn](https://linkedin.com/in/s-aksh)
+📫 sakshamsrivastava0000@gmail.com || saksh.am@outlook.in · ✍️ [medium.com/@saksh-am](https://medium.com/@saksh-am) · 💼 [LinkedIn](https://linkedin.com/in/saksh4)
 
-find more of me: [https://saksh.fyi](https://saksh.fyi)
+find more of me: [saksh.fyi](https://saksh.fyi) · the work version: [dev.saksh.fyi](https://dev.saksh.fyi) · blog: [blogs.saksh.fyi](https://blogs.saksh.fyi)
 
 ## Things I fixed upstream
 
@@ -16,6 +16,8 @@ find more of me: [https://saksh.fyi](https://saksh.fyi)
 **[opentelemetry-helm-charts #2377](https://github.com/open-telemetry/opentelemetry-helm-charts/pull/2377)** — the kube-stack chart's values schema rejected `instrumentation.java.extensions` even though the Operator CRD supports it, so you couldn't load a Java agent extension through Helm at all. Found this trying to deploy the sampler below. Merged.
 
 ## Some things I've built
+
+**[cyclops](https://github.com/sakshitposting-irl/cyclops)** — Kubernetes controller (Go, kubebuilder) that watches cert-manager Certificates and emails you when one is expired, never issued, or overdue for renewal. A healthy cluster sends nothing. Built mostly because I wanted to write a controller; it needs no Prometheus stack, and the email carries cert-manager's own ACME failure details. Alpha, but it ships releases.
 
 **[otel-pattern-sampler](https://github.com/sakshitposting-irl/otel-pattern-sampler)** — OTel Java agent extension, drops a noisy root span by name (and its whole child tree) before it hits the exporter. Had one span pattern flooding a trace backend at work — ~60 GB every 6 hours — and neither "turn down sampling globally" nor "go edit the app" was a good fix, so this. Backend rotates at 10 days and hasn't filled up since.
 
@@ -38,7 +40,13 @@ Also fourth author on **[Benchmarking LLM-powered Chatbots](https://arxiv.org/ab
 
 ## Writing
 
-Medium, mostly "how does this actually work":
+On [blogs.saksh.fyi](https://blogs.saksh.fyi), RFC-style memos about things that broke:
+
+- [They Did Surgery on a Process](https://blogs.saksh.fyi/gdb-live-process-surgery/) — fixing a stuck deploy by changing an environment variable in a running process with gdb
+- [Logs in Translation](https://blogs.saksh.fyi/logs-in-translation/) — how a log travels from app to store
+- [Observability, My Dear Watson](https://blogs.saksh.fyi/observability-my-dear-watson/) — what observability actually means
+
+And on Medium, mostly "how does this actually work":
 
 - Process Isolation: Linux Namespaces & cgroups
 - What Happens When: Linux boots from power to systemd
