@@ -5,7 +5,7 @@ Day job is running lots of Kubernetes clusters, lots of Docker, some networking,
 
 Not really a themed portfolio below, just stuff I got into.
 
-📫 sakshamsrivastava0000@gmail.com · ✍️ [medium.com/@saksh-am](https://medium.com/@saksh-am) · 💼 [LinkedIn](https://linkedin.com/in/s-aksh)
+📫 sakshamsrivastava0000@gmail.com || saksh.am@outlook.in · ✍️ [medium.com/@saksh-am](https://medium.com/@saksh-am) · 💼 [LinkedIn](https://linkedin.com/in/s-aksh)
 
 find more of me: [https://saksh.fyi](https://saksh.fyi)
 
