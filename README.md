@@ -1,6 +1,6 @@
 # Hi, I'm Saksham
 
-Platform / DevOps engineer. I run production Kubernetes for a multitenant SaaS: 7 clusters, ~80 nodes, ~160 services, three of us on infra. Outside the day job I follow whatever's annoying me, which has been ML, then Linux internals, and lately tracing and Kubernetes networking.
+Platform / DevOps engineer. I run production Kubernetes for a multitenant SaaS: 7 clusters, ~100 nodes, ~160 services. Outside the day job I follow whatever's annoying me, which has been ML, then Linux internals, and lately tracing and Kubernetes networking.
 
 📫 saksh.am@outlook.in · ✍️ [medium.com/@saksh-am](https://medium.com/@saksh-am) · 💼 [LinkedIn](https://linkedin.com/in/saksh4)
 
