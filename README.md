@@ -2,7 +2,7 @@
 
 Platform / DevOps engineer. I run production Kubernetes for a multitenant SaaS: 7 clusters, ~100 nodes, ~160 services. Outside the day job I follow whatever's annoying me, which has been ML, then Linux internals, and lately tracing and Kubernetes networking.
 
-📫 saksh.am@outlook.in · ✍️ [medium.com/@saksh-am](https://medium.com/@saksh-am) · 💼 [LinkedIn](https://linkedin.com/in/saksh4)
+📫 saksh.am@outlook.in · ✍️ [medium.com/@saksh-am](https://medium.com/@saksh-am) · 💼 [LinkedIn](https://linkedin.com/in/saksh4) · 𝕏 [x.com/xoredump](https://x.com/xoredump)
 
 find more of me: [saksh.fyi](https://saksh.fyi) · the work version: [dev.saksh.fyi](https://dev.saksh.fyi) · blog: [blogs.saksh.fyi](https://blogs.saksh.fyi)
 
@@ -43,8 +43,9 @@ On [blogs.saksh.fyi](https://blogs.saksh.fyi), RFC-style memos about things that
 - [Observability, My Dear Watson](https://blogs.saksh.fyi/observability-my-dear-watson/): what observability actually means
 - [Outbox Your Indexes, Index Your Outbox](https://blogs.saksh.fyi/index-your-outbox/): why a polling transactional outbox slowly eats a CPU core, and the partial index that fixes it
 - [4, No Reason](https://blogs.saksh.fyi/4-no-reason/): eight eMudhra intermediate CA keys turned out to be guessable, and how fast browsers moved to block them
+- [The Art of the Shard](https://blogs.saksh.fyi/tune-your-es/): Elasticsearch from index to shard to data stream lifecycle, using the numbers from the day a node filled up with traces that were never deleted
 
-Coming next: metrics, traces, OpenTelemetry.
+Coming next, RFC 0007 to 0009: metrics, traces, OpenTelemetry.
 
 And on Medium, mostly "how does this actually work":
 
