@@ -21,7 +21,7 @@ find more of me: [saksh.fyi](https://saksh.fyi) · the work version: [dev.saksh.
 
 ## Some things I've built
 
-**[cyclops](https://github.com/sakshitposting-irl/cyclops)**: Kubernetes controller (Go, kubebuilder) that watches cert-manager Certificates and emails you when one is expired, never issued, or overdue for renewal. A healthy cluster sends nothing. Built mostly because I wanted to write a controller; it needs no Prometheus stack, and the email carries cert-manager's own ACME failure details. Alpha, but it ships releases.
+**[cyclops](https://github.com/sakshitposting-irl/cyclops)**: Kubernetes controller (Go, kubebuilder) that watches cert-manager Certificates and emails you or posts to Slack when one is expired, never issued, or overdue for renewal. A healthy cluster sends nothing. Built mostly because I wanted to write a controller; it needs no Prometheus stack, and the report carries cert-manager's own failure details. Beta, and it ships releases.
 
 **[otel-pattern-sampler](https://github.com/sakshitposting-irl/otel-pattern-sampler)**: OTel Java agent extension that drops a noisy root span by name (and its whole child tree) before it hits the exporter. One span pattern was flooding our trace backend at ~60 GB every 6 hours, and neither "turn down sampling globally" nor "go edit the app" was a good fix. Growth is now ~60 GB every 4-5 days, about 95% less.
 
