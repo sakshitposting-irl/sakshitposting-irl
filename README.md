@@ -8,6 +8,7 @@ find more of me: [saksh.fyi](https://saksh.fyi) · the work version: [dev.saksh.
 
 ## Day job, briefly
 
+- Infrastructure/Security/DevOps @ Enveu|Axis360.
 - Moved 50+ services from AMD64 to ARM64 with zero downtime, cutting compute cost 25-30% at the same scale.
 - Automated ACME TLS behind an L4 load balancer on bare-metal clusters, and fixed hairpin traffic losing the PROXY protocol header with CoreDNS rewrites.
 - Made hour-long async jobs survive spot interruptions, scale-downs and deploys by handling SIGTERM properly.
